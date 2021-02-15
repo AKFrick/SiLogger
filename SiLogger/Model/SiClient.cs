@@ -11,7 +11,7 @@ namespace SiLogger.Model
         public void Connect() { }
         public void Disconnect() { }
 
-        public event Action<StateUpdates> StateUpdated;
+        public event Action<State> StateUpdated;
 
     }
 }

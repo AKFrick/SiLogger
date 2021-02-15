@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace SiLogger.Model
 {
-    public class StateUpdates
+    public class State
     {
         public string MachineName { get; set; }
         public string StateName { get; set; }
         public int StateNum { get; set; }
         public DateTime OccursTime { get; set; }
 
-        public StateUpdates(string StateName, int StateNum, string MachineName, DateTime OccursTime)
+        public State(string StateName, int StateNum, string MachineName, DateTime OccursTime)
         {
             this.StateName = StateName;
             this.StateNum = StateNum;
